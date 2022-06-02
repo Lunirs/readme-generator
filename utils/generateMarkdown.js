@@ -27,7 +27,7 @@ const generateMarkdown = ({
   license,
   installation,
   usage,
-  contributors,
+  contributing,
   tests,
   email,
   github,
@@ -60,7 +60,7 @@ const generateMarkdown = ({
   
   ## Contributing
   
-  ${contributors}
+  ${contributing}
   
   ## Tests
   

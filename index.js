@@ -32,9 +32,9 @@ const questions = [
   },
   {
     type: "input",
-    name: "contributors",
+    name: "contributing",
     message:
-      "Name any contributors. If there are none, please specify your name only.",
+      "Please specify any guidelines for possible contributors to follow.",
   },
   {
     type: "list",
