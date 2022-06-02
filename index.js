@@ -57,6 +57,11 @@ const questions = [
     name: "email",
     message: "What is your email address?",
   },
+  {
+    type: "input",
+    name: "readmeTitle",
+    message: "Please name your readme file (exclude the .md)",
+  },
 ];
 
 // Function to write README file
@@ -70,7 +75,7 @@ const writeToFile = (fileName, data) =>
 // Function to initialize app
 const init = () => {
   inquirer.prompt(questions).then((answers) => {
-    writeToFile("README.md", answers);
+    writeToFile(`${answers.readmeTitle}.md`, answers);
   });
 };
 

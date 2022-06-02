@@ -31,6 +31,7 @@ const generateMarkdown = ({
   tests,
   email,
   github,
+  readmeTitle,
 }) =>
   `# ${title}
 
